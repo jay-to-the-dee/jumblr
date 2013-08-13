@@ -35,6 +35,7 @@ public class Post extends Resource {
     private Long reblogged_from_id;
     private String reblogged_from_name;
     private Note[] notes;
+    private int note_count;
 
     /**
      * Get whether or not this post is liked
@@ -179,6 +180,15 @@ public class Post extends Resource {
      */
     public Note[] getNotes() {
         return Arrays.copyOf(notes, notes.length);
+    }
+
+    /**
+     * Gets the total count of all notes for that post from the Tumblr server.
+     * (Also requires "notes_info" to be "true" in options map to work)
+     * @return the total amount of notes for the post as a number
+     */
+    public int getNoteCount() {
+        return note_count;
     }
 
     /**
