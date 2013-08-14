@@ -369,7 +369,7 @@ public class JumblrClient {
      **
      */
 
-    private static String blogPath(String blogName, String extPath) {
+    public static String blogPath(String blogName, String extPath) {
         return "/blog/" + blogUrl(blogName) + extPath;
     }
 
