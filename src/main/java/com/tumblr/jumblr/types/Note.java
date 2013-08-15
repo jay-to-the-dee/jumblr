@@ -1,5 +1,8 @@
 package com.tumblr.jumblr.types;
 
+/**
+ * This class represents a note (post, like or reblog)
+ */
 public class Note {
     private Long timestamp;
     private String blog_name;

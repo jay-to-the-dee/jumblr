@@ -93,6 +93,10 @@ public class Blog extends Resource {
         return this.avatar(null);
     }
 
+    /**
+     * Return the total count (without pagination) of the people following this blog
+     * @return an int that is the total count of this blog's followers
+     */
     public Integer getFollowersCount() {
         return this.followers;
     }
