@@ -1,8 +1,12 @@
-# Jumblr.
+# Jumblr. (patched by jay-to-the-dee)
 
-[![Build Status](https://secure.travis-ci.org/tumblr/jumblr.png)](http://travis-ci.org/tumblr/jumblr)
+[![Build Status](https://travis-ci.org/jay-to-the-dee/jumblr.png?branch=jumblr-patched)](https://travis-ci.org/jay-to-the-dee/jumblr)
 
 A pleasant and complete Java wrapper for the Tumblr V2 API.
+
+## Patches
+
+The patches involve adding a few features that were missing from Jumblr, that I needed to put in to allow my own Java Tumblr GUI client to work.
 
 ## Example
 
